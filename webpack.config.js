@@ -17,6 +17,7 @@ module.exports = {
         extensions: ['.ts', '.js'],
     },
     output: {
+        publicPath: 'public',
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'public'),
     },
