@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/client/index.ts"],
+  "sourcesContent": ["console.log(\"I'm form client index.ts\")\n"],
+  "mappings": ";;;AAAA,UAAQ,IAAI,0BAA0B;",
+  "names": []
+}
