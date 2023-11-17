@@ -12,7 +12,13 @@ try {
     })
 
     await ctx.watch()
-    console.log('Client bundled and watching...')
+    console.log('Watching client...')
+
+    const { host, port } = await ctx.serve({
+        servedir: 'public',
+        fallback: 'index.html',
+    })
+    console.log(`Hot refresh at http://${host}:${port}`)
 } catch (error) {
     console.error('An error occured', error)
     process.exit(1)

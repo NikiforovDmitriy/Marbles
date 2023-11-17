@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": ["../../src/client/index.ts"],
-  "sourcesContent": ["console.log(\"I'm form client index.ts\")\n"],
-  "mappings": ";;;AAAA,UAAQ,IAAI,0BAA0B;",
+  "sourcesContent": ["console.log(\"I's so cool!\")\n\nnew EventSource('/esbuild').addEventListener('change', () => location.reload())\n"],
+  "mappings": ";;;AAAA,UAAQ,IAAI,cAAc;AAE1B,MAAI,YAAY,UAAU,EAAE,iBAAiB,UAAU,MAAM,SAAS,OAAO,CAAC;",
   "names": []
 }
